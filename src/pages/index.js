@@ -1,5 +1,5 @@
 import * as React from "react";
-import Hero from "../components/hero";
+import New from "../components/New.jsx";
 
 const pageStyles = {
   color: "#232129",
@@ -127,7 +127,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <Hero />
+      <New />
       <h1 style={headingStyles}>
         This is our first build
         <br />

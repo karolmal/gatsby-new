@@ -1,4 +1,5 @@
 import React from "react";
+import Todo from "./Todo";
 
 function Form() {
   return (
@@ -36,6 +37,9 @@ function Form() {
                   </button>
                 </div>
               </form>
+            </div>
+            <div className="mt-6 text-lg leading-8 text-gray-600">
+              <Todo />
             </div>
           </div>
         </div>
